@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=view
+comment0.target=void\ attach(View)
+comment1.params=view
+comment1.target=void\ detach(View)
+comment2.target=void\ update()
+numComments=3

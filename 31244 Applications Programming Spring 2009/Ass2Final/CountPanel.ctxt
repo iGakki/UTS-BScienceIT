@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=prison
+comment0.target=CountPanel(Prison)
+comment1.target=void\ setup()
+comment2.target=void\ build()
+comment3.target=void\ update()
+comment4.target=String\ getCount()
+numComments=5

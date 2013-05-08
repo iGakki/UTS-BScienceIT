@@ -1,0 +1,58 @@
+TEMPLATES & LISTS
+=================
+
+The code for this lab requires you to use the link list code used
+in lecture 6.
+
+The dlist code and its iterators and dnode are included in the lab
+and you will need to copy them to the directory where your are doing
+your lab.
+
+You can assume that this code is working properly. You don't need
+a makefile and can compile your code with 
+g++ list.cpp
+
+Q1
+
+a) Fix the syntax errors in list.cpp so that it compiles.
+
+c) Test the program and correct any bugs you find.
+
+
+To see how list.cpp is supposed to work you can run
+/home/glingard/list /home/glingard/addam.txt
+
+LAB SUBMISSION
+
+After you have debugged list.cpp you will submit it using the following 
+command
+/home/glingard/submitlab6 list.cpp
+
+The submission program will check that list.cpp compiles correctly and
+passes a number of simple tests. If your submission does pass these
+tests it will be accepted otherwise it will be rejected for submission.
+
+You may attempt to submit as many times as you like till the due date.
+
+If your program is accepted for submission a file called receipt.txt
+will be placed in your current directory. You may look at the contents
+of this file but DO NOT change anything in it. It is your receipt that 
+you have submitted your lab exercise and changing it will render it
+null and void. Move it to somewhere safe where it will not be over 
+written or lost.
+
+Successful submission of the program is worth 1%
+
+
+SUBMISSION CONDITIONS
+
+Due date 11.59pm 20/04/11
+
+Late submisions will not be accepted as I will be releasing the solution 
+the following day.
+
+Lab submissions will only be accepted via the submission system.
+
+This is not a group exercise. Please read the Subject Outline regarding
+acceptable behaviour.
+

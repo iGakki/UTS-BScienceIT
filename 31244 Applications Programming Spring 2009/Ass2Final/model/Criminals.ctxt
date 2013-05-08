@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=int\ nextId()
+comment1.params=crim
+comment1.target=void\ add(Criminal)
+comment2.target=int\ count()
+numComments=3

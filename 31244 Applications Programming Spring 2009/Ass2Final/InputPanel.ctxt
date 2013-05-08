@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=prison\ countPanel\ crimTable
+comment0.target=InputPanel(Prison,\ CountPanel,\ CrimTable)
+comment1.target=void\ setup()
+comment2.params=prison
+comment2.target=void\ build(Prison)
+comment3.target=void\ update()
+comment4.params=comp\ w\ h\ x\ y
+comment4.target=void\ place(Component,\ int,\ int,\ int,\ int)
+comment5.params=c\ w\ h\ x\ y
+comment5.target=void\ addToBag(Component,\ int,\ int,\ int,\ int)
+comment6.target=JButton\ addButton()
+numComments=7

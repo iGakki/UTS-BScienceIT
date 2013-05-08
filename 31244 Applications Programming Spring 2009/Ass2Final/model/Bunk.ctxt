@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=location
+comment0.target=Bunk(String)
+comment1.target=boolean\ hasOwner()
+comment2.target=boolean\ isFree()
+comment3.params=crim
+comment3.target=boolean\ isCompatible(Criminal)
+comment4.params=crim
+comment4.target=void\ set(Criminal)
+comment5.params=crim
+comment5.target=boolean\ has(Criminal)
+comment6.target=void\ clear()
+comment7.target=Criminal\ owner()
+numComments=8

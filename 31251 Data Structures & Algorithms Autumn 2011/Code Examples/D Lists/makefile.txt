@@ -1,0 +1,5 @@
+CC = g++
+prog: testmain.o 
+	$(CC) testmain.o -Wall -o testmain
+testmain.o: testmain.cpp dlist.h dataobject.h
+	$(CC) -Wall -c testmain.cpp

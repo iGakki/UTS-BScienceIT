@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Crime(String)
+comment1.params=period
+comment1.target=void\ set(Period)
+comment2.target=int\ level()
+numComments=3

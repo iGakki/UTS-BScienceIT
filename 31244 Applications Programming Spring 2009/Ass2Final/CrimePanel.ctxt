@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=prison
+comment0.target=CrimePanel(Prison)
+comment1.target=void\ setup()
+comment2.target=void\ build()
+comment3.target=void\ update()
+comment4.params=group\ label
+comment4.target=void\ addButton(ButtonGroup,\ String)
+comment5.target=String\ getCrime()
+numComments=6

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=prison\ countPanel\ crimTable
+comment0.target=DisplayPanel(Prison,\ CountPanel,\ CrimTable)
+comment1.target=void\ setup()
+comment2.target=void\ build()
+comment3.target=void\ update()
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Cells()
+comment1.params=crim
+comment1.target=void\ allocate(Criminal)
+comment2.params=crim
+comment2.target=Cell\ nextFree(Criminal)
+comment3.params=i
+comment3.target=Cell\ get(int)
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Date\ today()
+comment1.target=void\ setStart()
+comment2.target=Prison()
+comment3.params=crim
+comment3.target=void\ add(Criminal)
+comment4.target=Criminals\ crims()
+comment5.target=Cells\ cells()
+numComments=6

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=prison
+comment0.target=ValuePanel(Prison)
+comment1.target=void\ setup()
+comment10.target=int\ getMonths()
+comment11.target=int\ getYears()
+comment2.target=void\ build()
+comment3.target=void\ update()
+comment4.target=Box\ addNamePair()
+comment5.params=field\ label
+comment5.target=Box\ addPair(JTextField,\ String)
+comment6.params=comp\ w\ h\ x\ y
+comment6.target=void\ place(Component,\ int,\ int,\ int,\ int)
+comment7.params=c\ w\ h\ x\ y
+comment7.target=void\ addToBag(Component,\ int,\ int,\ int,\ int)
+comment8.target=String\ getName()
+comment9.target=int\ getDays()
+numComments=12

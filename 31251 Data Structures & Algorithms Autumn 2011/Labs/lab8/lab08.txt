@@ -1,0 +1,45 @@
+Trees
+=====
+
+Q1
+
+a) Fix the syntax errors in tree.cpp so that it compiles.
+
+b) Fix any logical errors in tree.cpp
+
+To see how tree.cpp is supposed to work you can run
+/home/glingard/tree
+
+LAB SUBMISSION
+
+After you have debugged tree.cpp you will submit it using the following 
+command
+/home/glingard/submitlab8 tree.cpp
+
+The submission program will check that tree.cpp compiles correctly and
+passes a number of simple tests. If your submission does pass these
+tests it will be accepted otherwise it will be rejected for submission.
+
+You may attempt to submit as many times as you like till the due date.
+
+If your program is accepted for submission a file called receipt.txt
+will be placed in your current directory. You may look at the contents
+of this file but DO NOT change anything in it. It is your receipt that 
+you have submitted your lab exercise and changing it will render it
+null and void. Move it to somewhere safe where it will not be over 
+written or lost.
+
+Successful submission of the program is worth 1%
+
+
+SUBMISSION CONDITIONS
+
+Due date 11.59pm 18/05/11
+
+Late submisions will not be accepted as I will be releasing the solution 
+the following day.
+
+Lab submissions will only be accepted via the submission system.
+
+This is not a group exercise. Please read the Subject Outline regarding
+acceptable behaviour.

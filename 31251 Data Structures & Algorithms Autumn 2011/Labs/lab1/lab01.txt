@@ -1,0 +1,120 @@
+1] COMPILING YOUR FIRST PROGRAM
+===============================
+
+a) Copy the file hello.cpp into your home directory. You can do this by typing
+   cp /pub/prprog/labs/lab01/hello.cpp .
+   Note the space and the dot after hello.cpp
+
+b) Type
+   ls
+   This will list files and sub-directories in your current directory.
+   
+c) Open hello.cpp with your favourite text editor
+   Study the code and see if you can work out what it does.
+
+d) Type
+   g++ hello.cpp
+   This will compile hello.cpp using the g++ compiler to form the executable.
+
+
+e) Type
+   ls
+   Note there is a new file - a.out
+ 
+f) Type
+   ./a.out
+   and see what happens. 
+
+Congratulations! You have just compiled and run your first C++ program.
+
+
+2] DEBUGGING YOUR FIRST PROGRAM
+===============================
+
+a) In the text editor delete the ; at the end of the cout line and then
+   save the file.
+   
+b) Recompile the saved program. Note the error printed.
+
+   hello.cpp: In function 'int main()':
+   hello.cpp:9: error: expected `;' before 'return'
+
+   The program has failed to compile. This means that by the time it 
+   started compiling line 9 there was something wrong. The error may be 
+   on the line mentioned but can often be due to an error in the line 
+   before. In this case the missing ; on line 7.
+
+When g++ compiles it will produce two types of errors
+* Warnings mean there is something suspicious but still acceptable. 
+* Errors mean there is something definitely wrong. 
+g++ will try and tell you where the problem occured and what it was. 
+
+The error (or 'bug', as it is sometimes called) you have created is called a
+'syntax' error. They are usually easy to fix since the compiler tells you about
+them. Much harder to fix are 'logical' errors. Programs with these errors compile
+but contain a logic error that makes the program behave in unexpected ways.
+
+We will discuss techniques for finding and fixing logical bugs later in the
+subject. Getting rid of bugs in your code is called 'debugging'. As you learn to
+program in C you will spend a lot of time debugging your code. The more you 
+practice programming the less errors you will make and the easier they will 
+become to solve. Therefore - PRACTICE LOTS!
+
+c) Replace the ; and place a // before using namespce std;
+   Recompile the code and see what happens.
+
+   hello.cpp: In function 'int main()':
+   hello.cpp:7: error: 'cout' was not declared in this scope
+
+   The compiler doesn't know where to find cout. 
+   Change the cout to std::cout and then compile.
+
+   The :: is called the scope resolution operator and allows the compiler
+   to know that cout is part of the std namespace.
+
+
+
+3] COMPILING YOUR SECOND PROGRAM
+================================
+   
+a) Copy the file typemix.cpp from \pub\prprog\labs\lab01 to your home directory
+
+b) Study the code and see if you can work out what it does.
+
+c) Compile and run this program. Note the warning messages generated.
+
+d) Do you understand why it produces the output it does?
+
+
+4] DS & PP WEB PAGE
+===================
+
+a) Start up the web browser on your screen and enter the following URL
+
+   http://learn.it.uts.edu.au/dsa/
+
+b) This is the web site for DS & A. Take a while to browse through it
+   and see what it contains.
+
+
+5] UTS ONLINE
+=============
+
+a) Start up the web browser on your screen and enter the following URL
+
+   http://online.uts.edu.au
+
+   This will get you to the login page of UTS Online
+
+b) If you don't already have a UTS Online login then click the activation
+   link https://email.itd.uts.edu.au/webapps/activation/
+   and activate your login
+   Otherwise, logon to UTS Online
+
+c) Go to to the box labelled My Courses
+   It should contain a link to Data Structures and Algorithms.
+   If there is no link then you should go to the IT Faculty Administration
+   Desk on the 3rd floor and get your enrollment confirmed.
+
+d) You are now within the UTS Online area for this subject. Explore what's
+   in there. Particularly the Discussion Board.

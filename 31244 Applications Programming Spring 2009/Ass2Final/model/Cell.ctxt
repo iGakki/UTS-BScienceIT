@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=id\ bunks
+comment0.target=Cell(String,\ int)
+comment1.params=number
+comment1.target=void\ setBunks(int)
+comment2.target=boolean\ isFull()
+comment3.params=crim
+comment3.target=boolean\ fits(Criminal)
+comment4.params=crim
+comment4.target=void\ set(Criminal)
+comment5.params=crim
+comment5.target=Bunk\ bunk(Criminal)
+comment6.target=boolean\ isFree()
+comment7.target=String\ id()
+comment8.params=i
+comment8.target=Bunk\ getBunk(int)
+numComments=9

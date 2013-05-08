@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=days\ months\ years
+comment0.target=Period(int,\ int,\ int)
+comment1.target=int\ toDays()
+numComments=2
